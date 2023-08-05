@@ -13,7 +13,8 @@ import exchangeOrder from "@/views/order/exchangeOrder.vue";
 //商户
 import merchantList from "@/views/merchant/merchantList.vue";
 import merchantWallet from "@/views/merchant/merchantWallet.vue";
-import merchantWalletRecords from "@/views/merchant/merchantWalletRecords.vue"
+import merchantWalletRecords from "@/views/merchant/merchantWalletRecords.vue";
+import merchantChannel from '@/views/merchant/merchantChannel.vue';
 
 
 export {
@@ -28,4 +29,5 @@ export {
   merchantList,
   merchantWallet,
   merchantWalletRecords,
+  merchantChannel,
 };

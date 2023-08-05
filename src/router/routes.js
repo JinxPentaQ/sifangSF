@@ -57,6 +57,7 @@ let routes = [
           { path: "/merchantList", component: merchantList, name: "平台信息" },
           { path: "/merchantWallet/:id", component: merchantWallet, name: "平台钱包",  hidden: true },
           { path: "/merchantWalletRecords/:id", component: merchantWalletRecords, name: "平台钱包记录",  hidden: true },
+          { path: "/merchantChannel/:id", component: merchantChannel, name: "平台通道配置", hidden: true },
         ],
       },
     ],
